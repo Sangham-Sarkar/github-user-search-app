@@ -1,29 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="main.css">
-  
-  <title>GitHub user search app</title>
-</head>
-<body>
-  <div>
-  <h1>devfinder</h1>
-    <h2>Dark</h2>
-    <img src="./assets/icon-moon.svg" alt="dark mode">
-  </div>
-  <div id="searchBox">
-    <img src="./assets/icon-search.svg" alt="">
-    <input type="search" id="searchBar">
-    <input type="button" value="Search" onclick="submit()">
-  </div>
-  <div id="userCard">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
 
-  </div>
-</body>
-<script src="index.js"></script>
+    <title>GitHub user search app</title>
+  </head>
+  <body >
+    <div id="header">
+      <h1>devfinder</h1>
+      <div id="mode" onclick="modeChanger()">
+        <h2 class="modeName">Dark</h2>
+        <img id="modeIcon" src="./assets/icon-moon.svg" alt="dark mode" />
+      </div>
+    </div>
+    <div class="searchBox">
+      <img src="./assets/icon-search.svg" id="searchIcon" alt="" />
+      <input
+        type="search"
+        placeholder="Search Github username..."
+        class="searchBar"
+      />
+      <input
+        type="button"
+        id="searchButton"
+        value="Search"
+        onclick="submit()"
+      />
+    </div>
+    <div class="userCard">
+      <div id="contentContainer">
+        <img id="avatar" src="">
+        <div class="content">
+        <div class="nameHolder">
+        <p id="Name"></p>
+        <p id="joinDate"></p>
+        </div>
+        <a id="userProfile" href="${userInfo.html_url}"></a>
+        <p id="bio"></p>
+        <div class="details">
+          <div id="repos">
+          <p class="countName"></p>
+          <p class="count"></p>
+          </div>
+          <div class="vals">
+          <p class="countName" ></p>
+          <p class="count"></p>
+          </div>
+          <div class="vals">
+          <p class="countName"></p>
+          <p class="count"></p>
+          </div>
+        </div>
+        <div id="detail">
+        <div>
+          <img src="./assets/icon-location.svg"> <span></span>
+        </div>
+        <div>  
+          <img src="./assets/icon-twitter.svg">
+          <a href=https://twitter.com/></a>
+          </div>
+          <div>
+          <img src="./assets/icon-website.svg">
+          <a href=""></a>
+          </div>
+          <div>
+          <img src="./assets/icon-company.svg">
+          <span></span>
+          </div>
+         </div> 
+        </div>
+        </div>
+        </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
 </html>
