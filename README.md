@@ -1,37 +1,49 @@
-Frontend Mentor - Huddle landing page with single introductory section solution
-This is a solution to the Huddle landing page with single introductory section challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Table of contents
-Overview
-The challenge
-Links
-My process
-Built with
-What I learned
-Continued development
-Author
-Overview
-a huddle landing page using html and css
-The challenge
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+  A simple github user searcher using the githubs api
+  
+### The challenge
+
 Users should be able to:
 
-View the optimal layout for the page depending on their device's screen size
-See hover states for all interactive elements on the page
-Links
-Solution URL: (https://github.com/Sangham-Sarkar/huddle-landing-page)
-Live Site URL:(https://sangham-sarkar.github.io/huddle-landing-page/)
-My process
-started with laying out all the elements then positioning them accordingly and then finally making it mobile compatible 
-Built with
-Semantic HTML5 markup
-CSS custom properties
-Flexbox
-What I learned
-learnt more about flexbox and had a first hand experience setting it up
+- See all countries from the API on the homepage
+- Search for a country using an `input` field
+- Filter countries by region
+- Click on a country to see more detailed information on a separate page
+- Click through to the border countries on the detail page
+- Toggle the color scheme between light and dark mode *(optional)*
 
-Continued development
-further optimized and functioning button and links
+### Links
 
-Author
-Website - sangham
-Frontend Mentor - @Sangham-Sarkar
+- Solution URL: (https://github.com/Sangham-Sarkar/github-user-search-app)
+- Live Site URL: (https://sangham-sarkar.github.io/github-user-search-app/)
+
+## My process
+First time working with an API, was mainly focused with processing the data and had a hard time working with the different mode but with some research was able to figure out how to make it.
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+### What I learned
+
+Understood about how data is sent and converted behind the scene and also understanding the importance of having backend knowledge.
+
+
+## Author
+
+
+- Website - [Sangham]
+- Frontend Mentor - [@Sangham-Sarkar](https://www.frontendmentor.io/profile/Sangham-Sarkar)
